@@ -48,6 +48,11 @@ export const Container = styled.div`
     }
   }
 
+  main {
+    margin: 3.2rem auto;
+    width: 90%;
+  }
+
   @media (min-width: 700px) {
     max-width: 100%;
 
@@ -63,6 +68,12 @@ export const Container = styled.div`
           margin-top: 0;
         }
       }
+    }
+
+    main {
+      padding: 3.2rem 0;
+      max-width: 740px;
+      margin: 0 auto;
     }
   }
 `;

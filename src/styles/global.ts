@@ -37,12 +37,12 @@ html, body, #root {
 
 body {
   background: var(--color-background);
-  color: var(--color-text-base);
-  -webkit-font-smoothing: antialiased;
 }
 
 body, input, button, table, textarea {
   font: 500 1.6rem Poppins;
+  color: var(--color-text-base);
+  -webkit-font-smoothing: antialiased;
 }
 
 #root {
