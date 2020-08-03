@@ -117,7 +117,7 @@ export const ButtonsContainer = styled.div`
 
     img {
       width: 4rem;
-      margin-right: 2.4rem;
+      margin-right: 0.8rem;
     }
 
     &.study {
